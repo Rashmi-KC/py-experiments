@@ -5,4 +5,4 @@
 name = input('Enter your name: ')
 current_age = int(input('Ener your age: '))
 age = 100 - current_age
-print(f'{name}, You\'ll turn 100 years in {age} years old.')
+print(f'{name}, You\'ll turn 100 years in {age} years old')
