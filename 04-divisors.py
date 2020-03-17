@@ -8,12 +8,12 @@
 
 num = int(input("Please choose a number to divide: "))
 
-listRange = list(range(1, num+1))
+range = list(range(1, num+1))
 
-divisorList = []
+divisor = []
 
-for number in listRange:
+for number in range:
     if num % number == 0:
-        divisorList.append(number)
+        divisor.append(number)
 
-print(divisorList)
+print(divisor)
